@@ -1,4 +1,4 @@
- h1 {
+h1 {
     text-align: center;
 }
 
@@ -31,15 +31,34 @@
             background-color: #b7b7b7; 
         }
 
-table, td, th {
+table {
+    border-collapse: collapse;
     text-align: center;
     width: 960px;
     background-color: #ccc;
     margin: 0 auto;
     margin-top: 20px;
+    padding: 10px;    
+    border: 1px solid black;
+}
+
+th, td {
     padding: 10px;
     border: 1px solid black;
-    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #7e69b7; 
+    color: white;
+}
+
+.colored-cell {
+    background-color: #d6e779; 
+}
+
+.color-link {
+    background-color: #f5ecec; 
 }
 
 .reg {
